@@ -17,5 +17,8 @@
     "prod:server": "cd server && yarn start",
     "prod:frontend": "cd frontend && yarn build"
   },
-  "private": false
+  "private": false,
+  "dependencies": {
+    "vite": "^4.3.9"
+  }
 }
